@@ -1,0 +1,10 @@
+Master:
+  Cpu: 50m
+  HostName: jenkins.misas.io
+  Ingress:
+    Annotations:
+      kubernetes.io/ingress.class: traefik
+  ServiceType: "ClusterIP"
+Agent:
+  Cpu: 50m
+  
